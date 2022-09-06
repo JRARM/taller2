@@ -1,0 +1,16 @@
+.bg-light {
+    background: red !important;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 50px;
+    /* Set same as footer's height */
+}
